@@ -75,33 +75,34 @@ A simple interface to:
 
 ## Project Structure
 
+## Project Structure
+
+```text
 lyftr-scraper/
-│
 ├── backend/
-│ └── app/
-│ ├── main.py
-│ ├── config.py
-│ ├── models.py
-│ └── scraper/
-│ ├── static_scraper.py
-│ ├── js_scraper.py
-│ ├── parser.py
-│ └── utils.py
-│
+│   └── app/
+│       ├── main.py
+│       ├── config.py
+│       ├── models.py
+│       └── scraper/
+│           ├── static_scraper.py
+│           ├── js_scraper.py
+│           ├── parser.py
+│           └── utils.py
 ├── frontend/
-│ ├── index.html
-│ ├── vite.config.js
-│ └── src/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── components/
-│ ├── SectionList.jsx
-│ └── JsonViewer.jsx
-│
+│   ├── index.html
+│   ├── vite.config.js
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       └── components/
+│           ├── SectionList.jsx
+│           └── JsonViewer.jsx
 ├── run.sh
 ├── design_notes.md
 ├── capabilities.json
 └── requirements.txt
+
 
 
 ##  How to Run
