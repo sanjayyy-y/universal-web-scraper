@@ -72,9 +72,6 @@ A simple interface to:
 - Vite  
 - Axios  
 
-
-## Project Structure
-
 ## Project Structure
 
 ```text
